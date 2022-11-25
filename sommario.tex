@@ -1,0 +1,27 @@
+\chapter*{Sommario} % senza numerazione
+\label{sommario}
+%Sommario è un breve riassunto del lavoro svolto dove si descrive l'obiettivo, l'oggetto della tesi, le metodologie e le tecniche usate, i dati elaborati e la spiegazione delle conclusioni alle quali siete arrivati.  
+%Il sommario dell’elaborato consiste al massimo di 3 pagine e deve contenere le seguenti informazioni:
+%\begin{itemize}
+  %\item contesto e motivazioni 
+  %\item breve riassunto del problema affrontato
+  %\item tecniche utilizzate e/o sviluppate
+  %\item risultati raggiunti, sottolineando il contributo personale del laureando/a
+%\end{itemize}
+
+La diffusione di informazioni tramite la rete è un fenomeno che negli ultimi anni ha assunto un'importanza vitale all'interno della nostra società. Gli aspetti positivi portati dall'evoluzione digitale vengono meno nel momento in cui gli strumenti che si hanno a disposizione non sono utilizzati in modo appropriato. Per contrastare le azioni illecite e le possibili conseguenze derivate dalla loro esecuzione, è nato il campo della scienza multimediale forense, il cui obiettivo è quello di estrarre attraverso l'analisi di immagini, audio e video informazioni significative relative al loro ciclo di vita. La ricerca però si è spinta oltre, applicando le conoscenze note allo studio di contenuti diffusi tramite i social network, portando alla creazione della \textit{social media forensics} e allo sviluppo di alcuni sotto-campi tra cui la \textit{platform provenance analysis}. Quest'ultima, in particolare, si occupa di ricostruire la storia digitale associata ad un contenuto che è stato condiviso su molteplici social.\\\\
+Il lavoro svolto in questa tesi approfondisce il campo della \textit{platform provenance analysis} introducendo un elemento che non è ancora stato esaminato dalla comunità scientifica: l'analisi di una singola piattaforma (nel nostro caso WhatsApp) ma cercando di identificare i device e i sistemi operativi utilizzati per la condivisione dei contenuti. La metodologia seguita può essere riassunta in quattro punti fondamentali:
+
+\begin{itemize}
+    \item la creazione di un nuovo dataset (SHADE) composto da immagini caricate tramite WhatsApp per definire in modo formale il problema affrontato;
+    
+    \item l'utilizzo di due metriche (\textit{Mean Square Error} e \textit{Peak Signal-to-Noise Ratio}) per eseguire una prima analisi qualitativa delle immagini ottenute;
+    
+    \item l'estrazione sotto-forma di \textit{feature} di informazioni rilevanti dal punto di vista forense e la loro visualizzazione, per comprendere meglio il grado di separabilità dei dati e formulare ipotesi sulla fase di classificazione;
+    
+    \item la classificazione delle immagini tramite due algoritmi di \textit{machine learning} (\textit{support vector machine} e \textit{random forest}) adeguatamente allenati per suddividere i dati in cluster omogenei e riportare le performance ottenute tramite speciali tabelle chiamate \textit{confusion matrix}.
+\end{itemize}
+Unendo tutti i risultati possiamo dire con relativa sicurezza che è possibile identificare nella maggior parte dei casi i device e i sistemi operativi che sono stati adottati per la condivisione delle immagini. Da questa tesi è stato tratto un contributo \cite{tomasoni2022device} che verrà presentato alla conferenza \textit{IEEE} sulla \textit{Multimedia Signal Processing} del 2022.\newpage
+
+
+
